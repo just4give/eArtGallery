@@ -1,0 +1,32 @@
+{
+  "artist": {
+    "title": "WELCOME TO MY ART GALLERY",
+    "description": "<p>You are invited to my digital art exhibition. Myself, Mithun Das presenting some beautiful photographs of nature's beauty, vibrant city life and some wonder architectures.  </p>"
+  },
+  
+  "category" : [
+    { 
+      "name": "City Life",
+      "shortdescription":"city",
+      "icon": "pics04.jpg",
+      "description":"This gallery presents some vibrant city life pictures taken around the cities in US",
+      "gallery":["pics08.jpg","pics09.jpg","pics12.jpg","pics16.jpg"]
+    },
+        { 
+      "name": "Nature & Landscape",
+      "shortdescription":"nature",
+      "icon": "pics05.jpg",
+      "description":"This gallery presents some beautiful landscape and nature pictures taken around the county sides.",
+      "gallery":["pics07.jpg","pics10.jpg","pics11.jpg","pics13.jpg","pics14.jpg","pics15.jpg"]
+    },
+            { 
+      "name": "Architectures",
+      "shortdescription":"architecture",
+      "icon": "pics06.jpg",
+      "description":"This gallery presents some beautiful architectures",
+      "gallery":["pics06.jpg","pics17.jpg","pics18.jpg"]
+    }
+    
+    ]
+   
+}

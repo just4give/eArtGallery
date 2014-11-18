@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<!--
+	Ex Machina by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head><% include templates/head %></head>
+
+<body class="right-sidebar">
+<!-- Header -->
+<% include templates/header %>
+<!-- Header -->
+
+<!-- Page -->
+<div id="page">
+		
+	<!-- Main -->
+	<div id="main" class="container">
+		<div class="row">
+		
+		<% if( title == 'Home'){ %>
+		<% include contents/artist %>
+		<% } else if(title == 'Gallery') { %>
+		<% include contents/gallery %>
+		<% } else if(title == 'Gallery Details') { %>
+		<% include contents/gallerydetails %>
+		<% } %>
+
+		<% include contents/artworks %>
+		</div>
+	</div>
+	<!-- Main -->
+</div>
+<!-- Page -->
+
+<!-- Footer -->
+<% include templates/footer %>
+<!-- Footer -->
+
+</body>
+</html>

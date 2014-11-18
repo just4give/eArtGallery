@@ -1,0 +1,19 @@
+<div class="9u">
+
+
+	<% for(var i=0; i< categories.length; i++){ %>
+	<section class="gallery-block">
+		<div class="box">
+
+			<h3><a href="/gallery/<%= categories[i].shortdescription %>" class="gallery-link">
+			<%= categories[i].name %>
+			</a></h3>
+
+			<a href="/gallery/<%= categories[i].shortdescription %>" ><img src="/images/<%= categories[i].icon %>" alt="" class="gallery-image"></a>
+			<p><%-  categories[i].description %></p>
+			
+		</div>
+	</section>
+	<% } %>
+	
+</div>
